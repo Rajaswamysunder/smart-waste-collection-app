@@ -80,32 +80,55 @@
 
 ### 👤 User Screens
 
-#### Main Features
+#### Main Dashboard & Core Features
 
-| Home Dashboard | Request Pickup | Profile |
+| Home Dashboard | Home - Recycling Info | Request Pickup |
 |:---:|:---:|:---:|
-| ![Home](screenshots/user/home.png) | ![Request Pickup](screenshots/user/request_pickup.png) | ![Profile](screenshots/user/profile.png) |
-| *User home with eco tips, statistics, waste categories, and recycling information* | *Schedule waste collection with waste type, quantity, date/time, and location picker* | *User profile with account info, contact details, and activity statistics* |
+| ![Home Dashboard](screenshots/user/home_dashboard.png) | ![Home Scrolled](screenshots/user/home_scrolled.png) | ![Request Pickup](screenshots/user/request_pickup.png) |
+| *Personalized greeting, eco tips, pickup statistics (0 Pending/Active/Completed), and waste category cards* | *Educational content showing recycling process: Collect → Sort → Compost → Fertilizer. Reduces methane by 60%* | *Schedule pickups by selecting waste type (Organic/Recyclable/E-Waste), quantity, date/time, and location* |
 
-#### Settings & Account
+#### User Profile & Settings
 
-| Settings | Activity & Rewards | About |
+| Profile | Activity & Rewards | Settings |
 |:---:|:---:|:---:|
-| ![Settings](screenshots/user/settings.png) | ![Activity Stats](screenshots/user/activity_stats.png) | Coming Soon |
-| *App preferences: dark mode, notifications, location services, and support options* | *Track pickups, CO₂ saved, eco score, and rewards system (₹25-₹300 vouchers)* | *App information and version* |
+| ![Profile](screenshots/user/profile.png) | ![Activity Stats](screenshots/user/activity_stats.png) | ![Settings](screenshots/user/settings.png) |
+| *User profile with verified email (rs8523@gmail.com), contact details (8148155805, Trichy), and activity stats* | *Track environmental impact with Total Pickups, CO₂ Saved, and Eco Score. Unlock rewards from ₹25 to ₹300* | *Account management, Edit Profile, Dark Mode toggle, Notifications, and Location Services controls* |
 
-#### Key Features Shown:
-- 🎯 **Eco Tip of the Day** - Daily waste management tips
-- 📊 **Live Statistics** - Track Pending, Active, and Completed pickups
-- ♻️ **Waste Categories** - Organic, Recyclable, and E-Waste sorting
-- 🎓 **Recycling Education** - Visual process guides (Collect → Sort → Compost → Fertilizer)
-- 🏆 **Eco Rewards** - 4-tier reward system:
-  - Eco Starter (20 pts): ₹25 Grocery Voucher
-  - Green Champion (50 pts): ₹75 Shopping Coupon
-  - Eco Warrior (100 pts): ₹150 Home Essentials Kit
-  - Earth Guardian (200 pts): ₹300 + Free Month Service
-- 🌿 **Environmental Impact** - Track CO₂ saved and eco score
-- 📍 **Smart Location** - Use profile address or pick from map
+#### Support & Information
+
+| Settings - Support | 
+|:---:|
+| ![Settings Support](screenshots/user/settings_support.png) |
+| *Help & Support, About (v1.0.0), Privacy Policy, Terms of Service, and Logout. Tagline: "Making the planet cleaner, one pickup at a time 🌍"* |
+
+---
+
+#### 🌟 Key Features Highlighted
+
+**Smart Dashboard**
+- 🌤️ **Personalized Greetings** - Time-based welcome messages
+- 💡 **Daily Eco Tips** - Educational waste management tips
+- 📊 **Real-time Statistics** - Live tracking of Pending, Active, and Completed pickups
+- 📈 **Completion Rate** - Visual progress tracking
+
+**Waste Management**
+- 🌱 **Organic Waste** - Food scraps, leaves, garden waste (Reduces methane by 60%)
+- ♻️ **Recyclable Materials** - Paper, plastic, glass, metal
+- 🔌 **E-Waste** - Electronics, batteries, cables
+- 📚 **Educational Content** - Interactive recycling process guides
+
+**Rewards System** 🏆
+- **Eco Starter** (20 pts): ₹25 Grocery Voucher - Redeem at local stores
+- **Green Champion** (50 pts): ₹75 Shopping Coupon - Valid at partner retailers
+- **Eco Warrior** (100 pts): ₹150 Home Essentials Kit - Eco-friendly products
+- **Earth Guardian** (200 pts): ₹300 + Free Month Service - Premium rewards
+
+**Smart Features**
+- 🗓️ **Flexible Scheduling** - Choose custom date and time for pickups
+- 📍 **Location Intelligence** - Use saved address or pick from interactive map
+- 🔔 **Push Notifications** - Real-time pickup reminders and updates
+- 🌙 **Dark Mode** - Comfortable viewing in any lighting condition
+- 🌍 **Environmental Impact** - Track CO₂ saved and earn Eco Score
 
 ---
 

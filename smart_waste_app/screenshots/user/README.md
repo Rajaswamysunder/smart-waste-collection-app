@@ -2,100 +2,157 @@
 
 This folder contains screenshots of the user-facing screens of the Smart Waste Collection App.
 
-## Screenshots to Add
+## Required Screenshots
 
-Based on the current UI, add the following screenshots:
+### 1. **home_dashboard.png**
+Main user home screen showing:
+- Greeting message "Good Afternoon 👋 Rajaswamy"
+- Eco Tip of the Day card with orange icon
+- Statistics section with three metrics:
+  - 0 Pending (clock icon)
+  - 0 Active (truck icon)
+  - 0 Completed (checkmark icon)
+  - 0% Completion Rate
+- Waste Categories section with three cards:
+  - Organic (green) - Food scraps, leaves, garden waste
+  - Recyclable (blue) - Paper, plastic, glass, metal
+  - E-Waste (pink) - Electronics, batteries, cables
 
-### 1. home.png
-- User home screen with greeting
-- Eco tip of the day
-- Statistics section (Pending, Active, Completed pickups)
-- Waste categories cards (Organic, Recyclable, E-Waste)
-- How Recycling Works section
-- New Pickup button
+### 2. **home_scrolled.png**
+Home screen scrolled down showing:
+- Waste category cards at top
+- "How Recycling Works" section with "Learn More" link
+- Organic Waste card showing:
+  - "Reduces methane by 60%" badge
+  - Process flow: Collect → Sort → Compost → Fertilizer
+  - Result description: "Food scraps and garden waste become nutrient-rich compost for farming"
+  - Carousel dots (4 slides)
+- "Your Pickups" section with tabs:
+  - All (active)
+  - Active
+  - Completed
+- Empty state: "No pickup requests" with trash icon
+- Green "New Pickup" button
 
-### 2. home_scrolled.png
-- Scrolled version showing recycling process details
-- Your Pickups section with tabs (All, Active, Completed)
-- Empty state message
+### 3. **activity_stats.png**
+Dedicated activity and rewards screen showing:
+- Activity Stats card with three metrics:
+  - 0 Total Pickups
+  - 0kg CO₂ Saved
+  - 0 Eco Score
+- Eco Rewards section featuring:
+  - Next Reward: ₹25 Grocery Voucher (0 pts, needs 20 points)
+  - Progress bar
+- Locked reward tiers:
+  - Eco Starter (20 pts): ₹25 Grocery Voucher - Local grocery stores
+  - Green Champion (50 pts): ₹75 Shopping Coupon - Partner retail stores
+  - Eco Warrior (100 pts): ₹150 Home Essentials Kit - Eco-friendly products
+  - Earth Guardian (200 pts): ₹300 + Free Month Service - Premium package
 
-### 3. activity_stats.png
-- Activity Stats header
-- Total Pickups, CO₂ Saved, Eco Score metrics
-- Eco Rewards section
-- Reward tiers with point requirements:
-  - Eco Starter (20 pts) - ₹25 Grocery Voucher
-  - Green Champion (50 pts) - ₹75 Shopping Coupon
-  - Eco Warrior (100 pts) - ₹150 Home Essentials Kit
-  - Earth Guardian (200 pts) - ₹300 + Free Month Service
+### 4. **profile.png**
+User profile screen displaying:
+- Large circular avatar with "R" initial and camera icon
+- Name: "Rajaswamy"
+- Role badge: "USER"
+- Account Information:
+  - Email: rs8523@gmail.com (Verified)
+  - Full Name: Rajaswamy
+- Contact Details:
+  - Phone Number: 8148155805
+  - Address: Trichy
+- Activity Stats preview (3 metrics at bottom)
 
-### 4. profile.png
-- User profile with avatar
-- Account Information section
-- Email (verified)
-- Full Name
-- Contact Details (Phone Number, Address)
-- Activity Stats summary
-
-### 5. settings.png
-- Account section with user info
-- Edit Profile option
+### 5. **settings.png**
+Settings screen with:
+- Header: "Settings - Manage your preferences"
+- Account section:
+  - User card with avatar, name, email, and USER badge
+  - Edit Profile option
 - Preferences section:
-  - Dark Mode toggle
-  - Notifications toggle
-  - Location Services toggle
-- Support section links
+  - Dark Mode toggle (off)
+  - Notifications toggle (on)
+  - Location Services toggle (on)
+- Support section header
 
-### 6. settings_scrolled.png
-- Help & Support
-- About
-- Privacy Policy
-- Terms of Service
-- Logout button
-- App version info (Version 1.0.0)
-- Tagline: "Making the planet cleaner, one pickup at a time"
+### 6. **settings_support.png**
+Settings scrolled to show support options:
+- Location Services toggle at top
+- Support section with:
+  - Help & Support - "FAQs and customer support"
+  - About - "App version and information"
+  - Privacy Policy - "Read our privacy policy"
+  - Terms of Service - "Read our terms and conditions"
+- Logout button (red)
+- App branding at bottom:
+  - Green leaf icon
+  - "Eco Waste"
+  - Version 1.0.0
+  - 🌍 "Making the planet cleaner, one pickup at a time"
 
-### 7. request_pickup.png
-- Request Pickup header
-- Select Waste Type (Organic, Recyclable, E-Waste)
-- Quantity input field
-- Schedule section (Date and Time pickers)
-- Pickup Address section
-- "Use profile address" checkbox
-- Address display
-- "Pick from Map" button
+### 7. **request_pickup.png**
+Request pickup form showing:
+- Header: "Request Pickup - Schedule your waste collection"
+- Select Waste Type:
+  - Organic (selected, green border with checkmark)
+  - Recyclable
+  - E-Waste
+  - Info banner: "Food waste, garden waste, biodegradables"
+- Quantity field with placeholder: "e.g., 2 bags, 5kg, 1 box"
+- Schedule section:
+  - Date picker: Mon, Jan 5
+  - Time picker: 9:00 AM
+- Pickup Address:
+  - "Use profile address" checkbox (checked)
+  - Address display: Trichy with location icon
+  - "Pick from Map" button (green outlined)
 
 ## File Naming Convention
 
-Use lowercase with underscores:
-- `home.png`
-- `home_scrolled.png`
-- `activity_stats.png`
-- `profile.png`
-- `settings.png`
-- `settings_scrolled.png`
-- `request_pickup.png`
+```
+home_dashboard.png
+home_scrolled.png
+activity_stats.png
+profile.png
+settings.png
+settings_support.png
+request_pickup.png
+```
 
 ## Image Specifications
 
-- Format: PNG
-- Resolution: 1080x2340 (mobile screenshots)
-- Quality: High quality, clear text
-- Device: iPhone or similar aspect ratio
+- **Format**: PNG
+- **Resolution**: 1170 x 2532 pixels (iPhone screenshots)
+- **Quality**: High quality, retina display
+- **Background**: Actual app screenshots
+- **Status Bar**: Include with time, signal, battery
 
 ## How to Add Screenshots
 
-1. Save your screenshots from the app/simulator
-2. Name them according to the convention above
-3. Add them to this `screenshots/user/` folder
-4. Commit and push to repository
+### Option 1: From Device/Simulator
+1. Take screenshots of each screen
+2. Transfer to your Mac
+3. Rename according to convention above
+4. Copy to `/Users/rajaswamy.s/Waste/smart_waste_app/screenshots/user/`
+
+### Option 2: Using Terminal
+```bash
+cd /Users/rajaswamy.s/Waste/smart_waste_app/screenshots/user/
+
+# If screenshots are in Downloads
+cp ~/Downloads/IMG_XXXX.PNG home_dashboard.png
+cp ~/Downloads/IMG_YYYY.PNG home_scrolled.png
+# ... and so on
+
+# Commit to git
+git add *.png
+git commit -m "Add user interface screenshots"
+git push origin main
+```
 
 ## Current Status
 
-✅ User home screen captured
-✅ Activity stats captured
-✅ Profile screen captured
-✅ Settings screen captured
-✅ Request pickup screen captured
+📱 **Screenshots Captured**: 7 screens
+📝 **Documentation**: Complete
+⏳ **Pending**: Adding actual PNG files to repository
 
-📸 Ready to be added to repository
+Once added, these will appear in the main README.md
